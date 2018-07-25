@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Форма реєстрації</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <form id="registration" method="post" action="#">
+        <div id="registr">
+            <fieldset>
+                <legend>Форма реєстрації</legend>
+                <div>
+                    <label for="fullname">ПІП</label>
+                    <input id="fullname" name="fullname" type="text" required="required">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="ivanenko@gmail.com" required="required">
+                </div>
+                <div>
+                    <label for="phone">Номер телефону</label>
+                    <input id="phone" name="phone" type="tel" placeholder="234-32-28" required="required">
+                </div>
+                <div>
+                    <label for="dateofbirth">Дата народження</label>
+                    <input id="dateofbirth" name="dateofbirth" type="date">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Параметри доставки</legend>
+                <div>
+                    <label for="address">Адреса</label>
+                    <textarea id="address" name="address" rows="5" required="required"></textarea>
+                </div>
+                <div>
+                    <label for="postcode">Поштовий індекс</label>
+                    <input id="postcode" name="postcode" type="text" required="required">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Спосіб доставки</legend>
+                <p>
+                    <input id="emailmessage" name="message" checked="checked" type="radio">
+                    <label for="emailmessage">По Email</label>
+                </p>
+                <p>
+                    <input id="phonemessage" name="message" type="radio">
+                    <label for="phonemessage">По телефону</label></p>
+                <p> <input id="nomessage" name="message" type="radio">
+                    <label for="nomessage">Не повідомляти мене</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <button id="submit" type="submit">Відправити дані</button>
+            </fieldset>
+        </div>
+    </form>
+</body>
+
+</html>

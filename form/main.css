@@ -1,0 +1,53 @@
+#registr {
+    background: darkgray;
+    width: 450px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#registration fieldset {
+    border: none;
+    margin-bottom: 10px;
+}
+
+#registration legend {
+    text-align: center;
+    color: navy;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 1px #C1F7FF;
+}
+
+#registration label {
+    font-size: 14px;
+    font: bold;
+    width: 90px;
+}
+
+#registration input {
+    float: center;
+    line-height: 14px;
+    width: auto;
+}
+
+#registration button {
+    background: #87CEEB;
+    border: none;
+    border-radius: 20px;
+    color: wheat;
+    display: block;
+    font: 18px, bold, Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 1px;
+    margin: auto;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #C1F7FF;
+    text-transform: uppercase;
+    float: center;
+}
+
+#registration button:hover {
+    background: darkblue;
+}
